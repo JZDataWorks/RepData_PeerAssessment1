@@ -1,11 +1,11 @@
 ---
-title: "Coursera - Reproducible Research"
-author: "jZ"
-date: "January 26, 2017"
-output: html_document:
-  keep_md: yes
+title: "Courser-Reproducible Research"
+author: "JZ"
+date: '2017-01-26'
+output:
+  html_document:
+    keep_md: yes
 ---
-
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -71,7 +71,8 @@ head(stepsbyinterval)
 
 ```
 
-##Imputing missing values
+
+Imputing missing values
 
 Note that there are a number of days/intervals where there are missing values (coded as NA). The presence of missing days may introduce bias into some calculations or summaries of the data.
 
@@ -115,9 +116,9 @@ mean(stepsbydate$Steps,na.rm=TRUE)
 
 ```
 
-##Are there differences in activity patterns between weekdays and weekends?
+Are there differences in activity patterns between weekdays and weekends?
 
-1.  a new factor variable in the dataset with two levels – “weekday” and “weekend” indicating whether a given date is a weekday or weekend day.
+1.  a new factor variable in the dataset with two levels - "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 2. Make a panel plot containing a time series plot (i.e. type = "l") of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). See the README file in the GitHub repository to see an example of what this plot should look like using simulated data.
 
 ```{r}
