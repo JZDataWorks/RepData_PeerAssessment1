@@ -32,7 +32,7 @@ summary(activity)
 ##  NA's   :2304     (Other)   :15840
 ```
 
-##What are mean total number of steps taken per day?
+##What is mean total number of steps taken per day?
 
 1. Calculate the total number of steps taken per day
 2. Make a histogram of the total number of steps taken each day
